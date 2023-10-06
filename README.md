@@ -144,7 +144,7 @@ async function translate(text,target){
         method: "POST",
         body: JSON.stringify({
             q: text,
-            source: "auto",
+            source: "en",
             target: target,
             format: "text",
         }),
