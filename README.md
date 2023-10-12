@@ -160,7 +160,7 @@ cds.once('served', (whatever) => {
       const translationRegistry = new Map();
       for (const key in entity.elements) {
         const element = entity.elements[key]
-        if (element['@cds.translate']){
+        if (element['@translate']){
           if(!translationRegistry.has(entity.name)){
              translationRegistry.set(entity.name,[])
           }
