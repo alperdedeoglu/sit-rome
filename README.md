@@ -48,7 +48,7 @@ service CatalogService {
 }
 
 annotate CatalogService.Books with {
-    description @translate;
+    description @cds.translate;
 }
 ```
 
